@@ -1,0 +1,113 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #6B6B8A;
+    }
+    .banner {
+        height: auto;
+    }
+    .products__list {
+        gap: 15px;
+    }
+}
+@media (max-width: 991px) {
+    body {
+        background-color: rgb(103, 149, 109);
+    }
+    .banner__inner {
+        flex-direction: column;
+    }
+    .banner__content {
+        padding: 15px;
+        background-color: #54380db0;
+        border-radius: 20px;
+
+    }
+    .products__list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .component-content__inner {
+        flex-direction: column;
+    }
+    .component-content__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__inner {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+@media (max-width: 767px) {
+    body {
+        background-color: #83606f;
+    }
+    .header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .header__inner {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .header-menu {
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+    .products__list {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 575px) { }
+    body {
+        background-color: #893b3b;
+    }
+    .products__tabs {
+        flex-direction: column;
+        width: 100%;
+    }
+    .products__title {
+        margin-bottom: 30px;
+    }
+    .tab-product.active {
+        text-align: center;
+    }
+    .tab-product {
+        text-align: center;
+    }
+    .seo__content {
+        width: 100%;
+    }
+    .seo__head {
+        flex-direction: column;
+    }
+    .seo__link {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .seo {
+        background-position: 30%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .seo__title {
+        font-size: 28px;
+    }
+    .seo__info {
+        margin-bottom: 40px;
+    }
+    .component-content__image img {
+        width: 100%;
+        height: 100%;
+    }
+    .component-content__avatars {
+        gap: 15px;
+    }
+    .component-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .component-content__info {
+        text-align: left;
+    }
